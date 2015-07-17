@@ -82,7 +82,8 @@
 				"preloadEnabled": false,
 				"virtualDirectories": null
 			  }
-			]          
+		   ]          
+	      }
         },
         {
           "apiVersion": "2014-04-01",
