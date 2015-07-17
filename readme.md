@@ -13,6 +13,8 @@ Laravel is accessible, yet powerful, providing powerful tools needed for large, 
 
 This project is fork of Laravel that can run on [Azure Web App Service](http://azure.microsoft.com/en-us/services/app-service/web/)
 
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
 
 ## Official Documentation
 
