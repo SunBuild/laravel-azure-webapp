@@ -74,8 +74,15 @@
             "[concat('Microsoft.Web/Sites/', parameters('siteName'))]"
           ],
           "properties": {
-            "phpVersion": "5.5"
-          }
+            "phpVersion": "5.5",
+			"virtualApplications": [
+			  {
+				"virtualPath": "/",
+				"physicalPath": "site\\wwwroot\\public",
+				"preloadEnabled": false,
+				"virtualDirectories": null
+			  }
+			]          
         },
         {
           "apiVersion": "2014-04-01",
